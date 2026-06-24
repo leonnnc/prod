@@ -1,0 +1,15 @@
+# Ignorar dependencias de Node.js
+node_modules/
+server/node_modules/
+
+# Ignorar archivos de variables de entorno y claves secretas
+.env
+server/.env
+*.env
+
+# Archivos temporales o de configuración local del editor
+.DS_Store
+Thumbs.db
+.gemini/
+.agents/
+.vscode/
